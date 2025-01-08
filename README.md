@@ -2,10 +2,10 @@
 Welcome to Wordhunt Solver – the tool to dominate your iMessage Wordhunt games! This app is quite capable of finding every possible word combination, and achieving scores of over 200,000 if the time allows 🙌
 
 ## What is Wordhunt?
-If you're unfamiliar with the Wordhunt game in iMessage, it's a fast-paced puzzle where you’re given a grid of random letters. The challenge? Find as many words as you can by connecting adjacent letters, either vertically, horizontally, or diagonally. Simple, right? Well, here's the catch – the longer and more complex the words, the higher your score. And when you’re competing against friends, you’ll want to make sure you’re scoring BIG.
+If you're unfamiliar with the Wordhunt game in iMessage, it's a fast-paced puzzle where you’re given a grid of random letters. The challenge? Find as many words as you can by connecting adjacent letters, either vertically, horizontally, or diagonally. The longer and more complex the words, the higher your score.
 
 ## How Does the App Work?
-This app uses a combination of a **Trie** data structure and **recursive backtracking** to solve each game in style. Here’s a breakdown of how it all works:
+This app uses a combination of a **Trie** data structure and **recursive backtracking** to rack up points insanely fast. Here’s a breakdown of how it all works:
 
 ### 1. Parsing the Dictionary
 We start by parsing a dictionary.txt file that contains a list of valid words. This dictionary is loaded into a Trie data structure.
@@ -32,7 +32,7 @@ Using Apple’s Screen Mirroring Tool (released with macOS 15, Sequoia), the app
 - It maps the tile coordinates of each word in the `solutions` hashmap to mouse cursor coordinates.
 - The app clicks through the grid, finding each letter and selecting the correct tiles to form each word.
   
-This means you can sit back and watch as your score rockets through the roof! 💥
+This means you can sit back and watch as your score skyrockets within seconds! 💥
 
 ## How to use it:
 ### 1. Install the App
@@ -47,7 +47,7 @@ python3 -m venv myenv
 pip install -r requirements.txt
 ```
 ### 2. Prepare the bot
-Connect your IOS Device via screen mirroring - if this is your first time running the bot, execute the calibrate script and follow the instructions on the cli with:
+Connect your IOS Device via screen mirroring - (TODO) if this is your first time running the bot,execute the calibrate script and follow the instructions on the cli with:
 ```
 python3 ./calibrate.py
 ```
