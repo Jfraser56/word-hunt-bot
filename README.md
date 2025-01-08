@@ -59,7 +59,7 @@ Enter Letters (ノ^_^)ノ: <grid letters here>
 ```
 Press `Enter`, and bring the IOS screen mirror window into focus. Sit back and enjoy watching your score climb! 📈 (The script can be cancelled at any time with the `Esc` key)
 
-
+![wh-bot-demo](https://github.com/user-attachments/assets/31ba8f4d-87e2-40b2-b092-522a2ebe8c98)
 
 
 
