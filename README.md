@@ -7,7 +7,7 @@ One day while practicing leetcode, I was learning about the **Trie** data struct
 If you're unfamiliar with Wordhunt, it's an iMessage word game where you’re given a grid of random letters, and have one minute to find as many words as you can. You create words by connecting adjacent letters, either vertically, horizontally, or diagonally. The longer and more complex the words, the higher your score.
 
 ## How Does the Program Work?
-It uses a combination of a **Trie** data structure and **recursive backtracking** to rack up points really fast - like even faster than my friend. Here’s a breakdown of how it works:
+It uses a combination of a **Trie** data structure and **recursive backtracking** to rack up points really fast. Here’s a breakdown of how it works:
 
 ### 1. Parsing the Dictionary
 We start by parsing a dictionary.txt file that contains a list of valid words. This dictionary is loaded into a Trie data structure.
